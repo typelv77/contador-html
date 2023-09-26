@@ -3,6 +3,7 @@
     padding: 0;
     box-shadow: 0;
 }
+
 main{
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@ main{
 }
 
 body{
-    background-color: rgb(62, 110, 6);
+    background-color: #000000;
 }
 
 section{
@@ -22,7 +23,7 @@ section{
     align-items: center;
     margin-top: 300px;
     color: rgb(255, 255, 255);
-    background-color: rgb(40, 63, 14);
+    background-color: rgb(241, 188, 11);
     margin: auto;
     padding: 15px;
     border-radius: 15px;
@@ -43,7 +44,8 @@ button{
     display: flex;
     gap: 15px;
 }
+
 button:hover{
-    transition: 1.5s;
-    background-color: rgb(114, 107, 109);
+    transition: 2ms;
+    background-color: #0f0f0f;
 }
